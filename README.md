@@ -37,5 +37,4 @@ Ce script illustre l’usage du **web scraping** en Python avec les bibliothèqu
 - **csv** → pour exporter les données sous format CSV  
 
 ---
-└── architecture_diagram.png # (Optionnel) Schéma du fonctionnement du projet
 
