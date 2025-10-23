@@ -35,6 +35,3 @@ Ce script illustre l’usage du **web scraping** en Python avec les bibliothèqu
 - **requests_html** → pour charger les pages dynamiques  
 - **pandas** → pour structurer et exporter les données en Excel  
 - **csv** → pour exporter les données sous format CSV  
-
----
-
