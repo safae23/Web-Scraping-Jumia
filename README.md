@@ -39,5 +39,27 @@ Ce script illustre l’usage du **web scraping** en Python avec les bibliothèqu
 ---
 
 ## 📂 Structure du projet
+Voici la structure complète du dépôt :
 
+Web-Scraping-Jumia/
+│
+├── 📜 README.md # Documentation principale du projet
+├── 📦 requirements.txt # Liste des librairies Python nécessaires
+├── 📜 main_scraper.py # Script principal qui exécute tous les modules
+│
+
+│ ├── scraping_ma.py # Script de scraping pour Jumia Maroc
+│ ├── scraping_eg.py # Script de scraping pour Jumia Égypte
+│ └── utils.py # (Optionnel) Fonctions utilitaires : sauvegarde, logs, etc.
+│
+├── 📊 data/ # Dossier contenant les données collectées
+│ ├── Jumia_products.csv # Résultats du scraping Jumia Égypte
+│ ├── XIAOMI_Redmi_products.xlsx # Résultats du scraping Jumia Maroc
+│ └── raw/ # (Optionnel) Données brutes avant nettoyage
+│
+├── 🧪 notebooks/ # Dossier pour tes analyses ou tests dans Jupyter
+│ └── analysis.ipynb # Exemple d’analyse des produits collectés
+└── 🗂️ docs/ # Documentation supplémentaire
+├── screenshots.png # Captures d’écran des résultats / dashboards
+└── architecture_diagram.png # (Optionnel) Schéma du fonctionnement du projet
 
